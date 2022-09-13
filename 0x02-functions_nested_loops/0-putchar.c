@@ -11,7 +11,7 @@ int main(void)
 
 	while(main [i] !='\0')
 	{
-		_putcher(holberton[i]);
+		_putchar(main[i]);
 		i++;
 	}
 	_putchar('\n');
