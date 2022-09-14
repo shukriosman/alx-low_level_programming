@@ -3,14 +3,14 @@
  *  print_alphabet - Print alphabet in lowercase using only `_putchar`
  *  Return: 0
  */
-void print_alphabet(main)
+void print_alphabet(void)
 {
 	char c = 'a';
 
 	while (c <= 'z')
 	{
-	        print_alphabet(main);
+	       _putchar(c);
 		c++;
 	}
-	    print_alphabet(main);
+	_putchar('\n');
 }
