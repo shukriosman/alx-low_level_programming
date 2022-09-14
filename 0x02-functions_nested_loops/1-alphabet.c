@@ -5,7 +5,7 @@
  */
 void print_alphabet(main);
 {
-	char c = 'a'
+	char c = 'a';
 
 	while (c <= 'z')
 	{
