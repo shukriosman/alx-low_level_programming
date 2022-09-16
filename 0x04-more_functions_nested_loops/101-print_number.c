@@ -30,6 +30,7 @@ void print_number(int n)
 		else
 		{
 			_putchar((num / m % 10) + '0');
+
 			m /= 10;
 		}
 	}
