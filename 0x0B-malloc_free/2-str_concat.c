@@ -27,3 +27,4 @@ char *str_concat(char *s1, char *s2)
 	for (s1--; length1--;)
 		*--ret = *--s1;
 	return (ret);
+}
